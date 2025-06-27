@@ -1,0 +1,57 @@
+/* File: css/styles.css */
+
+/* Body and Fonts */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Active nav item */
+.nav-item.active .nav-link {
+  font-weight: bold;
+  color: #ffffff !important;
+  border-bottom: 2px solid white;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url('../images/banner.jpg'); /* Optional banner image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 25px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Product Cards */
+.card {
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 128, 0, 0.2);
+}
+
+.card-title {
+  color: #2e7d32;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

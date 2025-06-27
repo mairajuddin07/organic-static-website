@@ -1,0 +1,35 @@
+/* File: css/products.css */
+
+/* Body setup */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Navbar active state */
+.nav-item.active .nav-link {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+/* Headings */
+h2 {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #dcdcdc;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 128, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.card-title {
+  color: #2e7d32;
+  font-weight: 600;
+}

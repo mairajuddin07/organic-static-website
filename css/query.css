@@ -1,0 +1,32 @@
+/* File: css/query.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+label {
+  font-weight: 500;
+}
+
+select.form-control,
+textarea.form-control,
+input.form-control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #2e7d32;
+  box-shadow: none;
+}
+
+button {
+  font-weight: bold;
+}

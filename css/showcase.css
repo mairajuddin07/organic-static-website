@@ -1,0 +1,19 @@
+/* File: css/showcase.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.img-fluid {
+  transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
